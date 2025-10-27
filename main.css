@@ -1,12 +1,84 @@
+/* css reset */
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+/* background and main area styling */
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background:radial-gradient(circle,rgb(54, 54, 108),rgb(42, 42, 101));
+}
+
+.circle-nav{
+    position: relative;
+    top: 70px;
+    width: 30vw;
+    height: 58vh;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.1);
+    border: 2px solid rgba(255,255,255,0.3);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* center logo */
+.center-logo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: rgb(101, 190, 238);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    z-index: 10;
+    box-shadow: 0 0 15px #3498db;
+    text-align: center;
+}
+/* anchor tage elements styling */
+.circle-nav a{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.circle-nav a:hover{
+    background:rgb(53, 172, 237);
+    box-shadow: 0 0 15px rgb(101, 190, 238);
+    color: white;
+    
+}
+#first{
+    transform: rotate(0deg) translateY(-130px);
+    
+}
+#second{
+    transform: rotate(0deg) translateX(130px) ;
+}
+#third{
+    transform: rotate(0deg) translateY(130px);
+}
+#fourth{
+    transform: rotate(0deg) translateX(-130px);
+    
 }
