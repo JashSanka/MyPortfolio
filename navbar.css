@@ -15,9 +15,9 @@ body{
 
 .circle-nav{
     position: relative;
-    top: 70px;
-    width: 30vw;
-    height: 58vh;
+    
+    width: 50vw;
+    height: 88vh;
     border-radius: 50%;
     background: rgba(255,255,255,0.1);
     border: 2px solid rgba(255,255,255,0.3);
@@ -29,8 +29,8 @@ body{
 /* center logo */
 .center-logo{
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 170px;
+    height: 170px;
     background: rgb(101, 190, 238);
     border-radius: 50%;
     display: flex;
@@ -38,7 +38,7 @@ body{
     align-items: center;
     color: white;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 25px;
     z-index: 10;
     box-shadow: 0 0 15px #3498db;
     text-align: center;
@@ -46,15 +46,15 @@ body{
 /* anchor tage elements styling */
 .circle-nav a{
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
     background: #fff;
     border-radius: 50%;
     text-align: center;
     line-height: 50px;
     color: #333;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 500;
     transition: 0.3s;
     display: flex;
@@ -69,16 +69,16 @@ body{
     
 }
 #first{
-    transform: rotate(0deg) translateY(-130px);
+    transform: rotate(0deg) translateY(-270px);
     
 }
 #second{
-    transform: rotate(0deg) translateX(130px) ;
+    transform: rotate(0deg) translateX(270px) ;
 }
 #third{
-    transform: rotate(0deg) translateY(130px);
+    transform: rotate(0deg) translateY(270px);
 }
 #fourth{
-    transform: rotate(0deg) translateX(-130px);
+    transform: rotate(0deg) translateX(-270px);
     
 }
