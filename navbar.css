@@ -4,7 +4,6 @@
     padding: 0px;
     box-sizing: border-box;
 }
-/* background and main area styling */
 body{
     display: flex;
     justify-content: center;

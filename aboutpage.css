@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: "Newsreader", serif;;
 }
+html{
+    overflow-x: hidden;
+}
 body{
     background: radial-gradient(circle, rgb(54, 54, 108), rgb(42, 42, 101));
 }
@@ -36,7 +39,7 @@ body{
 }
 button:hover{
             background: rgba(54, 54, 108, 0.5);
-            transform: translateY(-2px);
+            transform: translateY(-5px) translateX(5px);
             box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
         }
 .about{
@@ -56,9 +59,19 @@ button:hover{
     grid-area: intro;
     border: 2px solid black;
     width: 50vw;
-    height: 50vh;
+    height: 40vh;
     position: relative;
-    left: 30px;
+    left: 40px;
+    border-radius: 20px;
+    border-radius: 20px;
+    border: 2px solid rgba(255,255,255,0.3);
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+#me:hover{
+    transform: translateX(5px) translateY(-5px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
 #image{
     grid-area: image;
@@ -66,6 +79,12 @@ button:hover{
     width: 30vw;
     height: 70vh;
     border-radius: 50%;
+    transition: all 0.3s ease;
+    border: 2px solid rgba(255,255,255,0.3);
+}
+#image:hover{
+    transform: translateX(5px) translateY(-5px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
 #image img{
     width: 100%;
@@ -78,11 +97,20 @@ button:hover{
     width: 50vw;
     height: 35vh;
     position: relative;
-    left: 30px;
+    left: 40px;
     margin-bottom: 120px;
     display: flex;
     flex-direction: column;
     gap: 50px;
+    border-radius: 20px;
+    border: 2px solid rgba(255,255,255,0.3);
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+#hobbies:hover{
+    transform: translateX(5px) translateY(-5px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
 .me{
     position: absolute;
@@ -93,15 +121,20 @@ button:hover{
     position: absolute;
     top: 150px;
     left: 50px;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .hobbies{
     position: absolute;
     top: 50px;
     left: 50px;
+    
 }
 .hobby{
     position: absolute;
     top: 140px;
     left: 50px;
+    font-size: 1.5rem;
+}
+#hobbies{
+    margin-top: 20px;
 }
