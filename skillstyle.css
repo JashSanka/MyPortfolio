@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Shojumaru&family=ZCOOL+KuaiLe&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Newsreader", serif;
+}
+body{
+    background: radial-gradient(circle, rgb(54, 54, 108), rgb(42, 42, 101));
+}
+#button{
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    font-size: 2vh;
+    color: white;
+    background: rgba(4, 4, 109, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+
+}
+button:hover{
+    background: rgba(54, 54, 108, 0.5);
+    transform: translateY(-5px) translateX(5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.skills i{
+    font-size: 4rem;
+    margin: 20px;
+}
