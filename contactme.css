@@ -139,3 +139,9 @@ button:hover{
     transform: translateY(-5px) translateX(5px);
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
 }
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+}
