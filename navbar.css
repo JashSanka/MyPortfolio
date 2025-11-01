@@ -1,4 +1,4 @@
-/* css reset */
+
 *{
     margin: 0px;
     padding: 0px;
@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background:radial-gradient(circle,rgb(54, 54, 108),rgb(42, 42, 101));
+    background-color: rgb(26, 26, 26);
 }
 
 .circle-nav{
@@ -25,12 +25,12 @@ body{
     justify-content: center;
     align-items: center;
 }
-/* center logo */
+
 .center-logo{
     position: absolute;
     width: 170px;
     height: 170px;
-    background: rgb(101, 190, 238);
+    background: rgba(4, 4, 109, 0.3);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -39,10 +39,10 @@ body{
     font-weight: 600;
     font-size: 25px;
     z-index: 10;
-    box-shadow: 0 0 15px #3498db;
+    box-shadow: 0 0 15px rgb(101, 190, 238);
     text-align: center;
 }
-/* anchor tage elements styling */
+
 .circle-nav a{
     position: absolute;
     width: 150px;
@@ -62,7 +62,7 @@ body{
     
 }
 .circle-nav a:hover{
-    background:rgb(53, 172, 237);
+    background:rgba(4, 4, 109, 0.3);
     box-shadow: 0 0 15px rgb(101, 190, 238);
     color: white;
     
@@ -85,7 +85,7 @@ footer{
             position: absolute;
             bottom: 0px;
             color: white;
-           background-color: rgba(86, 85, 85, 0.921);
+           background-color: rgba(0, 0, 0, 0.621);
            display: block;
            width: 100%;
            text-align: center;
