@@ -9,7 +9,7 @@ html{
     overflow-x: hidden;
 }
 body{
-    background: radial-gradient(circle, rgb(54, 54, 108), rgb(42, 42, 101));
+    background-color: rgb(26, 26, 26);
     height: 100%;
 }
 #button{
@@ -142,7 +142,7 @@ button:hover{
 footer{
            
             color: white;
-           background-color: rgba(86, 85, 85, 0.921);
+           background-color: rgba(0, 0, 0, 0.921);
            display: block;
            width: 100%;
            position: sticky;
