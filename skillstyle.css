@@ -8,13 +8,14 @@
 body{
     background: radial-gradient(circle, rgb(54, 54, 108), rgb(42, 42, 101));
 }
-#button{
-    position: relative;
+button{
+    position: sticky;
     top: 20px;
     left: 30px;
 }
 
 .btn{
+    
     width: 150px;
     height: 50px;
     font-size: 2vh;
@@ -29,7 +30,7 @@ body{
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
     display: block;
 }
-.btn a{
+.btn {
     text-decoration: none;
     color: white;
 
@@ -123,4 +124,57 @@ button:hover{
 #css{
     color: white;
     font-size: 30px;
+}
+.list{
+    margin: 40px auto;
+    max-width: 600px;
+    padding: 30px;
+    border: 2px solid rgba(255,255,255,0.3);
+    border-radius: 10px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.list ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+.list ul li{
+    margin: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.list ul li:hover{
+    background: rgba(255,255,255,0.1);
+}
+.list ul li a{
+    text-decoration: none;
+    color: white;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+.projects{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.projects h2{
+    margin-bottom: 30px;
 }
