@@ -6,7 +6,7 @@
     font-family: "Newsreader", serif;
 }
 body{
-    background: rgb(26, 26, 26);
+    background: radial-gradient(circle, #1b1f3a 0%, #0f111a 100%);
 }
 button{
     position: sticky;
@@ -20,23 +20,24 @@ button{
     height: 50px;
     font-size: 2vh;
     color: white;
-    background: rgba(4, 4, 109, 0.3);
+    background: radial-gradient(circle, #1b1f3a 0%, #0f111a 100%);
+             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 15px;
     padding: 15px 30px;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    
     display: block;
 }
-.btn {
+.btn a{
     text-decoration: none;
     color: white;
 
 }
 button:hover{
-    background: rgba(54, 54, 108, 0.5);
+    background: rgba(6, 6, 84, 0.5);
     transform: translateY(-5px) translateX(5px);
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
 }
