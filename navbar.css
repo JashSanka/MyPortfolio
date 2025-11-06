@@ -62,11 +62,14 @@ body{
     justify-content: center;
     align-items: center;
     
+    
 }
 .circle-nav a:hover{
     background: radial-gradient(circle, #1b1f3a 0%, #0f111a 100%);
     box-shadow: 0 0 25px 6px rgba(0, 136, 255, 0.3);
     color: white;
+    transform: scale(1.1) translateY(-10px);
+    
     .icon{
         fill: white;
     }
@@ -74,17 +77,27 @@ body{
 }
 #first{
     transform: rotate(0deg) translateY(-270px);
-    
+}
+#first:hover{
+    transform: rotate(0deg) translateY(-280px) scale(1.1);
 }
 #second{
-    transform: rotate(0deg) translateX(270px) ;
+    transform: rotate(0deg) translateX(270px);
+}
+#second:hover{
+    transform: rotate(0deg) translateX(280px) translateY(-10px) scale(1.1);
 }
 #third{
     transform: rotate(0deg) translateY(270px);
 }
+#third:hover{
+    transform: rotate(0deg) translateY(280px) scale(1.1);
+}
 #fourth{
     transform: rotate(0deg) translateX(-270px);
-    
+}
+#fourth:hover{
+    transform: rotate(0deg) translateX(-280px) translateY(-10px) scale(1.1);
 }
 footer{
             position: absolute;
